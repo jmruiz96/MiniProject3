@@ -16,7 +16,7 @@ function game() {
         if (userInput === compPick) {
             ties++;
             alert("Tie");
-        } else if ((userInput === "P" && compPick === "R")) { userInput|| () || ()
+        } else if ((userInput === "P" && compPick === "R") || (userInput === "R" && compPick === "S") || (userInput === "S" && compPick === "P")) {
             wins++;
             alert("you win");
         } else {
