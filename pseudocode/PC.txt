@@ -1,0 +1,19 @@
+opens prompt for user slection of r/p/s 
+add validation for wrong user input
+    covert userinput to uppercase
+    check if user input is either r/p/s
+alert- if user input is valid then alert with comp pick
+    create comp options array [r/p/s]
+    choose random index of array and choose comp pick
+then another alert comparing user and comp pick and shows you win/lose/draw.
+    if user input is equal to comp pick then its a draw
+        draw++
+    if user input is p and comp pick is r user win
+    if user input is r and comp pick is s user win
+    if user input is s and comp pick is p user win
+        wins++
+    else user loose.
+        losses++
+alert shows history win/loss/draw and 
+and then do you want to play again.  
+    if user yes the repeat the process, {place all above into a function}
